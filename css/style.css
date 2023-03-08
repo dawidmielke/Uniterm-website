@@ -3,6 +3,7 @@
   
 }
 .container--header{
+  margin-top: 1.2rem;
   max-width: 130rem;
   display: flex;
   justify-content: space-between;
@@ -13,7 +14,7 @@
 
 
 .logo{
-  height: 9.6rem
+  height: 12.8rem
 }
 
 .main-nav-list{
@@ -24,6 +25,11 @@
   gap: 4.8rem;
 }
 
+.main-nav-link{
+  display: inline-block;
+  position: relative;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited{
   color: #333;
@@ -31,7 +37,7 @@
   font-weight: 700;
   list-style: none;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .main-nav-link:hover,
@@ -40,4 +46,42 @@
   font-weight: 700;
   list-style: none;
   text-decoration: none;
+  color: #027bde;
+}
+
+.main-nav-link::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.2rem;
+  bottom: -0.8rem;
+  left: 0;
+  background-color: #027bde;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.main-nav-link:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.home{
+  position: relative;
+  height: 60rem;
+  background-image: url("/assets/images/hero-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.hero-shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
 }
