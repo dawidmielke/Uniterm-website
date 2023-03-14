@@ -1,23 +1,26 @@
-
-.header{
-  
+.header {
 }
-.container--header{
-  margin-top: 1.2rem;
+
+.nav {
+  background-color: #f8f9fa;
+  padding-top: 0.8rem;
+  padding-bottom: 1.2rem;
+}
+.container--header {
+  margin-top: 1;
   max-width: 130rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 9.6rem;
+  height: 8rem;
   padding: 2.4rem 4.8rem 2.4rem;
 }
 
-
-.logo{
-  height: 12.8rem
+.logo {
+  height: 10rem;
 }
 
-.main-nav-list{
+.main-nav-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,13 +28,13 @@
   gap: 4.8rem;
 }
 
-.main-nav-link{
+.main-nav-link {
   display: inline-block;
   position: relative;
 }
 
 .main-nav-link:link,
-.main-nav-link:visited{
+.main-nav-link:visited {
   color: #333;
   font-size: 1.8rem;
   font-weight: 700;
@@ -41,7 +44,7 @@
 }
 
 .main-nav-link:hover,
-.main-nav-link:active{
+.main-nav-link:active {
   font-size: 1.8rem;
   font-weight: 700;
   list-style: none;
@@ -49,7 +52,7 @@
   color: #027bde;
 }
 
-.main-nav-link::after{
+.main-nav-link::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -62,26 +65,76 @@
   transition: transform 0.25s ease-out;
 }
 
-.main-nav-link:hover::after{
+.main-nav-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-.home{
+.home {
   position: relative;
-  height: 65rem;
+  height: 60rem;
   background-image: url("/assets/images/hero-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
 }
 
-.hero-shadow{
+.hero-shadow {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.welcome-text {
+  font-size: 8.6rem;
+  color: #fff;
+}
+
+.welcome-paragraph {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.section-about {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+}
+.about-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+}
+
+.box-icon {
+  font-size: 2.4rem;
 }
