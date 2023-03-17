@@ -29,6 +29,14 @@ body{
   padding: 0 3.2rem;
 }
 
+.primary-header,
+.tertiary-header,
+.quaternary-header{
+  font-size: 5.2rem;
+  color: #4D63C6;
+  text-transform: capitalize;
+  margin-bottom: 3.2rem;
+}
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
