@@ -115,6 +115,7 @@
   justify-content: center;
   align-items: center;
   gap: 6.4rem;
+  padding-bottom: 4.8rem;
 }
 
 .about-box {
@@ -125,6 +126,12 @@
   gap: 1.6rem;
   padding: 3rem;
   border: 1px solid #dee2e6;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.about-box:hover{
+  transform: translateY(-1.2rem);
 }
 
 .box-fill{
@@ -146,4 +153,10 @@
 .box-text{
   font-size: 1.8rem;
 
+}
+
+.about-header{
+  text-align: center;
+  font-size: 6.4rem;
+  text-transform: uppercase;
 }
