@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uniterm - strona</title>
+  </head>
     <meta
       name="description"
       content="Strona internetowa firmy Uniterm. Firma powstała w 1989 roku. Zajmujemy się projektowaniem systemów grzewczych dla odbiorców indywidualnych, komunalnych i przemysłowych."
@@ -25,13 +26,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/splide.min.css">
     <link rel="stylesheet" href="css/genral.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/queries.css" type="text/css" />
 
     <!-- Script Files -->
-    <script src="js/script.js"></script>
-  </head>
+    <script src="js/splide.min.js"></script>
+    <script src="js/script.js" defer></script>
   <body>
     <nav class="nav">
       <div class="container container--header">
@@ -153,8 +155,7 @@
             <li class="specializations-item">
               <i class="fa-regular fa-circle-check"></i>
               <span
-                >Instalacje centralnego ogrzewania i wodno-kanalizacyjne</span
-              >
+                >Instalacje centralnego ogrzewania i wodno-kanalizacyjne</span>
             </li>
             <li class="specializations-item">
               <i class="fa-regular fa-circle-check"></i>
@@ -170,43 +171,52 @@
             </li>
           </ul>
         </div>
+        <div class="specalizations-img">
+          <img src="" alt="">
+        </div>
       </section>
       <section class="realization">
         <div class="container">
           <div class="realization-text">
             <h4 class="quaternary-header">nasze realizacje</h4>
           </div>
-
-          <div class="carousel">
-
-            <button class="carousel-button button-left">
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-
-            <div class="carousel-container">
-              <ul class="carousel-track">
-                <li class="carousel-slide">
-                  <img class="carousel-img" src="assets/img/image-1.jpg" alt="" />
+          <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="assets/img/image-1.jpg" alt="">
                 </li>
-                <li class="carousel-slide">
-                  <img class="carousel-img" src="assets/img/image-1.jpg" alt="" />
+                <li class="splide__slide">
+                  <img src="assets/img/image-2.jpg" alt="">
                 </li>
-                <li class="carousel-slide">
-                  <img class="carousel-img" src="assets/img/image-1.jpg" alt="" />
+                <li class="splide__slide">
+                  <img src="assets/img/image-3.jpg" alt="">
                 </li>
+                <li class="splide__slide">
+                  <img src="assets/img/image-4.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/img/image-5.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/img/image-1.jpg" alt="">
+                </li> 
               </ul>
             </div>
-
-            <button class="carousel-button button-right">
-              <i class="fa-solid fa-chevron-right"></i>
-            </button>
-
-            <div class="carousel-nav">
-              <button class="carousel-indicator current-slide"></button>
-              <button class="carousel-indicator"></button>
-              <button class="carousel-indicator"></button>
+          </div>
+        </div>
+      </section>
+      <section class="cooperation-section">
+        <div class="container">
+          <h5 class="five-row-header">współpraca</h5>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-us">
+            <div class="title">
+              <h6>napisz do nas!</h6>
             </div>
-
           </div>
         </div>
       </section>
