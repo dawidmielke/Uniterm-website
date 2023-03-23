@@ -32,7 +32,8 @@ body{
 .primary-header,
 .tertiary-header,
 .quaternary-header,
-.five-row-header{
+.five-row-header,
+.six-row-header{
   font-size: 5.2rem;
   color: #4D63C6;
   text-transform: capitalize;

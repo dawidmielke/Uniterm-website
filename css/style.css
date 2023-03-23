@@ -246,3 +246,113 @@
 .contact-section{
   background: linear-gradient(90deg, #0e3959 0%, #0e3959 50%, #03a9f5 30%, #03a9f5 100%);
 }
+
+.contact-us{
+  position: relative;
+  width: 100%;
+  padding: 4rem 10rem;
+}
+
+.six-row-header{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: 
+  "form info"
+  "form map";
+  grid-gap: 2rem;
+}
+
+.contact{
+  padding: 4rem;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 3.5rem rgba(0, 0, 0, .15);
+}
+
+.form{
+  grid-area: form;
+}
+
+.info{
+  grid-area: info;
+}
+
+.map{
+  grid-area: map;
+}
+
+.contact-text{
+  color: #0e3959;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.form-box{
+  position: relative;
+  width: 100%;
+}
+
+.form-box .row{
+  display: flex;
+  gap: 2rem;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.form-box .row-big .input-box{
+  width: 100%;
+}
+
+.input-text{
+  color: #4d63c6;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.input-box input{
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid #333;
+}
+
+.input-box textarea{
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid #333;
+  resize: none;
+  min-height: 22rem;
+  margin-bottom: 1rem;
+}
+
+.input-box input[type="submit"]{
+  background: #F6453D;
+  color: #fff;
+  border: none;
+  font-size: 1.8rem;
+  max-width: 12rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1.4rem 1.5rem;
+}
+
+.input-box ::placeholder{
+  color: #999;
+}
