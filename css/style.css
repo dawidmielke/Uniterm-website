@@ -128,6 +128,31 @@
   color: #fff;
 }
 
+.section-collaboration{
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.collaboration-text{
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+  color: #4d63c6;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img{
+  height: 5.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+
 .section-about {
   padding: 4.8rem 0 6.4rem 0;
 }
@@ -237,11 +262,9 @@
   width: 100%;
 }
 
-.cooperation-section {
-  padding: 6.4rem 0 6.4rem 0;
-}
 
 .contact-section {
+  padding: 4.8rem 0 6.4rem 0;
   background: linear-gradient(
     90deg,
     #0e3959 0%,
@@ -254,10 +277,10 @@
 .contact-us {
   position: relative;
   width: 100%;
-  padding: 4rem 10rem;
+  
 }
 
-.six-row-header {
+.five-row-header {
   color: #fff;
   display: flex;
   justify-content: center;
