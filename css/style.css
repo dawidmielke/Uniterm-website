@@ -224,6 +224,17 @@
   padding: 6.4rem 0 6.4rem 0;
 }
 
+.specializations{
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.specializations-img{
+  width: 50%;
+  height: 50%;
+}
+
 .specializations-list {
   list-style: none;
 }
