@@ -428,5 +428,39 @@
 }
 
 .footer{
-  padding: 4.8rem 0 4.8rem 0;
+  padding: 6.4rem 0 4.8rem 0;
+  background: #333;
+}
+
+.footer-list{
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+}
+
+.footer-list-link:link,
+.footer-list-link:visited{
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-list-link:hover,
+.footer-list-link:active{
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ddd;
+}
+
+.footer-copyright{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
 }

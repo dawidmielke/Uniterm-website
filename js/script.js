@@ -5,3 +5,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
   } );
   splide.mount();
 } );
+
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
