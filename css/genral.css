@@ -29,6 +29,10 @@ body{
   padding: 0 3.2rem;
 }
 
+.container-lg{
+  max-width: 130rem;
+}
+
 .primary-header,
 .tertiary-header,
 .quaternary-header,

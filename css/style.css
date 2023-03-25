@@ -272,7 +272,7 @@
   grid-template-areas:
     "form info"
     "form map";
-  grid-gap: 2rem;
+  grid-gap: 1.8rem;
 }
 
 .contact {
@@ -323,7 +323,7 @@
 }
 
 .input-text {
-  color: #4d63c6;
+  color: #0e3959;
   font-size: 1.8rem;
   text-transform: capitalize;
   margin-top: 1rem;
@@ -367,12 +367,13 @@
 
 .contact-text-light {
   color: #fff;
+  margin-bottom: 2.4rem;
 }
 
 .info .info-box .info-text {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .info .info-box .info-text span {
@@ -380,4 +381,48 @@
   height: 4rem;
   color: #fff;
   background: #4d63c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-right: 1.6rem;
+  border-radius: 50%;
+}
+
+.info .info-box .info-text a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.info .info-box .info-text p{
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+.socials{
+  margin-top: 3.8rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.social-link{
+  font-size: 2.4rem;
+  color: #ccc;
+}
+
+.social-link:hover{
+  color: #fff;
+}
+
+.map{
+  padding: 0;
+}
+
+.uniterm-map{
+  width: 100%;
+  height: 100%;
 }
