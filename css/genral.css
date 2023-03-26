@@ -42,6 +42,22 @@ body{
   text-transform: capitalize;
   margin-bottom: 3.2rem;
 }
+
+.btn-mobile-nav{
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav{
+  font-size: 3rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"]{
+  display: none;
+}
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128

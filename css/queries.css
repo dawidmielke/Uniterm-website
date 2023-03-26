@@ -1,5 +1,8 @@
 /* bellow 1200px */
 @media (max-width: 75em) {
+  html{
+    font-size: 55%;
+  }
   .welcome-text {
     font-size: 4.8rem;
   }
@@ -26,6 +29,46 @@
   }
 }
 
-@media(max-width: 48rem){
-  
+@media(max-width: 58rem){
+  .logos img{
+    height: 4.8rem;
+  }
+  .box-header{
+    font-size: 1.8rem;
+  }
+
+  .box-icon{
+    font-size: 1.8rem;
+  }
+
+  .box-text{
+    font-size: 1.6rem;
+  }
+}
+
+@media(max-width: 53em){
+  .colaboration-text{
+    font-size: 1.6rem;
+  }
+
+  .logos img{
+    height: 3.2rem;
+  }
+
+  .about-box{
+    padding: 2.4rem;
+  }
+
+  .about-row{
+    gap: 2.4rem;
+  }
+
+  .primary-header,
+  .tertiary-header,
+  .quaternary-header,
+  .five-row-header {
+    font-size: 3.2rem;
+  }
+
+
 }
