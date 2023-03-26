@@ -1,16 +1,15 @@
-.nav {
-  background-color: #f8f9fa;
-  padding-top: 0.8rem;
-  padding-bottom: 1.2rem;
-}
-.container--header {
+
+.header {
   margin-top: 1;
-  max-width: 130rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
-  padding: 2.4rem 4.8rem 2.4rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav {
+  padding-top: 0.8rem;
+  padding-bottom: 1.2rem;
 }
 
 .logo {
@@ -34,7 +33,7 @@
 .main-nav-link:visited {
   color: #333;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   list-style: none;
   text-decoration: none;
   text-transform: capitalize;
@@ -43,7 +42,7 @@
 .main-nav-link:hover,
 .main-nav-link:active {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   list-style: none;
   text-decoration: none;
   color: #4d63c6;
@@ -67,13 +66,29 @@
   transform-origin: bottom left;
 }
 
+.btn-mobile-nav{
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav{
+  font-size: 3rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"]{
+  display: none;
+}
+
 .home {
   position: relative;
   height: 60rem;
   background-image: url("/assets/img/hero-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 0;
+  z-index: -1;
 }
 
 .hero-shadow {
@@ -288,7 +303,6 @@
 .contact-us {
   position: relative;
   width: 100%;
-  
 }
 
 .five-row-header {
