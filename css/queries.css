@@ -1,3 +1,31 @@
-@media{
+/* bellow 1200px */
+@media (max-width: 75em) {
+  .welcome-text {
+    font-size: 4.8rem;
+  }
+
+  .btn-welcome {
+    font-size: 1.6rem;
+  }
+
+  .primary-header,
+  .tertiary-header,
+  .quaternary-header,
+  .five-row-header {
+    font-size: 4.8rem;
+  }
+
+  .about-row{
+    gap: 4.8rem;
+  }
+}
+
+@media(max-width: 64em){
+  .about-row{
+    gap: 3.2rem;
+  }
+}
+
+@media(max-width: 48rem){
   
 }
