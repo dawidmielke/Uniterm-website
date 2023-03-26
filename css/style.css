@@ -82,6 +82,10 @@
   display: none;
 }
 
+.section-home{
+  position: relative;
+}
+
 .home {
   position: relative;
   height: 60rem;
@@ -89,6 +93,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: column;
 }
 
 .hero-shadow {
@@ -101,13 +109,6 @@
   z-index: -1;
 }
 
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .welcome-text {
   text-align: center;
   font-size: 6.4rem;
@@ -117,6 +118,10 @@
 }
 
 .btn-welcome {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: block;
   margin: auto;
   font-size: 1.8rem;
@@ -129,6 +134,7 @@
   border-radius: 0.325rem;
   background: none;
   transition: all 0.4s;
+  z-index: 0;
 }
 
 .btn-welcome:hover {
