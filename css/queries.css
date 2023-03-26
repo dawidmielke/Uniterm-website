@@ -4,7 +4,7 @@
     font-size: 55%;
   }
   .welcome-text {
-    font-size: 4.8rem;
+    font-size: 4.4rem;
   }
 
   .btn-welcome {
@@ -156,3 +156,13 @@
   }
 
 }
+
+@media(max-width: 37em){
+  .about-row{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .welcome-text{
+    font-size: 3.6rem;
+  }
+} 
