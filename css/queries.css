@@ -24,6 +24,9 @@
 }
 
 @media(max-width: 64em){
+  .header{
+    padding: 2.4rem 5%;
+  }
   .about-row{
     gap: 3.2rem;
   }

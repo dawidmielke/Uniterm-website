@@ -19,11 +19,12 @@ btnNavEl.addEventListener("click", function () {
 
 
 // to do 
-function onBtnClick(){
-  const element = document.getElementsByClassName(".btn-welcome");
-  element.classList.add("hide-btn");
-}
+const scrollBtn = document.getElementById("scroll-btn");
 
+scrollBtn.addEventListener("click", function(){
+  const section = document.getElementById("about");
+  section.scrollIntoView({behavior: "smooth"});
+});
 
 
 // Smooth scrolling

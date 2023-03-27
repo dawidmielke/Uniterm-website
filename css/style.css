@@ -3,8 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.4rem 4.8rem;
+  padding: 2.4rem 10%;
   position: relative;
+  z-index: 1;
 }
 
 .main-nav {
@@ -270,7 +271,7 @@
   line-height: 1.6;
 }
 
-.realization {
+.realization-section {
   padding: 6.4rem 0 6.4rem 0;
 }
 
