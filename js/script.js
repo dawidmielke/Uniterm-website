@@ -18,6 +18,14 @@ btnNavEl.addEventListener("click", function () {
 });
 
 
+// to do 
+function onBtnClick(){
+  const element = document.getElementsByClassName(".btn-welcome");
+  element.classList.add("hide-btn");
+}
+
+
+
 // Smooth scrolling
 const allLinks = document.querySelectorAll("a:link");
 console.log(allLinks);

@@ -43,9 +43,7 @@
 
   .box-text{
     font-size: 1.6rem;
-  }
-
-  
+  }  
 }
 
 @media(max-width: 53em){
@@ -57,12 +55,8 @@
     height: 3.2rem;
   }
 
-  .about-box{
-    padding: 2.4rem;
-  }
-
   .about-row{
-    gap: 2.4rem;
+    gap: 1.2rem;
   }
 
   .primary-header,
@@ -155,9 +149,17 @@
     padding: 0;
   }
 
+  .hide-btn{
+    display: none;
+  }
+
 }
 
 @media(max-width: 37em){
+  .header{
+    padding: 1.2rem 3.2rem;
+  }
+
   .about-row{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -166,3 +168,37 @@
     font-size: 3.6rem;
   }
 } 
+
+@media(max-width: 27em){  
+  .header{
+    padding: 1.2rem 2.4rem;
+  }
+
+  .collaboration-text{
+    font-size: 1.6rem;
+  }
+
+  .specializations-img{
+    width: 100%;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .specializations{
+    flex-direction: column;
+  }
+
+  .footer-list{
+    gap: 1.2rem;
+  }
+
+  
+}
+
+@media(max-width: 24em){
+  .about-row{
+    grid-template-columns: 1fr;
+  }
+}

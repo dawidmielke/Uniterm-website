@@ -38,26 +38,7 @@
   <body>
     <header class="header">
       <a href="#">
-        <svg
-          class="logo"
-          viewBox="0 0 886 422"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="886" height="422" fill="none" />
-          <path
-            d="M260.688 195.08V234.842C260.688 240.169 261.973 244.054 264.542 246.498C267.111 248.879 270.433 250.07 274.506 250.07C278.642 250.07 281.963 248.817 284.47 246.31C287.039 243.803 288.324 239.981 288.324 234.842V195.08H300.638V235.782C300.638 242.675 298.288 248.441 293.588 253.078C288.888 257.653 282.527 259.971 274.506 260.034C266.485 260.097 260.124 257.809 255.424 253.172C250.787 248.472 248.468 242.675 248.468 235.782L248.374 195.08H260.688ZM369.906 195.08V259H357.686L328.076 216.23V259H315.95V195.08H328.076L357.686 237.756V195.08H369.906ZM397.841 195.08V259H385.715V195.08H397.841ZM406.29 195.08H457.99L459.964 204.668H438.062V259H425.748V204.668H406.29V195.08ZM513.077 259H468.333V195.08H506.497L508.377 204.668H480.459V221.87H497.567L499.541 231.552H480.459V249.506H511.103L513.077 259ZM542.506 205.232H534.986V224.784H542.694C546.329 224.784 549.337 224.063 551.718 222.622C554.099 221.118 555.29 218.674 555.29 215.29C555.29 211.718 554.162 209.149 551.906 207.582C549.65 206.015 546.517 205.232 542.506 205.232ZM559.99 259L546.454 234.56C545.765 234.623 545.044 234.685 544.292 234.748C543.54 234.748 542.788 234.748 542.036 234.748H534.986V259H522.86V195.08H542.882C549.838 195.08 555.791 196.678 560.742 199.874C565.693 203.07 568.168 208.021 568.168 214.726C568.168 218.674 567.134 222.089 565.066 224.972C563.061 227.792 560.46 229.985 557.264 231.552L572.962 259H559.99ZM609.241 239.636L593.919 219.99V259H581.793V195.08H589.501L611.121 224.596L630.767 195.08H638.193V259H625.879V222.152L613.941 238.978L609.241 239.636Z"
-            fill="#F20403"
-          />
-          <path
-            d="M275.5 153.607C185 167.107 85.1 279.507 275.5 285.107L188.5 305.107C181.333 305.773 158.6 292.907 125 236.107C143.184 226.273 179.84 189.607 181 121.607C182.16 53.6068 244.483 114.607 275.5 153.607Z"
-            fill="#4D63C6"
-          />
-          <path
-            d="M605 295.524C695.5 282.024 795.4 169.624 605 164.024L692 144.024C699.167 143.358 721.9 156.224 755.5 213.024C737.317 222.858 700.66 259.524 699.5 327.524C698.341 395.524 636.017 334.524 605 295.524Z"
-            fill="#4D63C6"
-          />
-        </svg>
+        <img class="logo-img" src="assets/img/Uniterm-logo.png" alt="">
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -75,7 +56,7 @@
           </li>
         </ul>
       </nav>
-      <button class="btn-mobile-nav">
+      <button class="btn-mobile-nav" aria-label="opens and close mobile nav">
         <i name="menu-outline" class="fa-solid fa-bars icon-mobile-nav"></i>
         <i name="close-outline" class="fa-solid fa-xmark icon-mobile-nav"></i>
       </button>
@@ -203,13 +184,11 @@
                 <span>Panele solarne</span>
               </li>
             </ul>
-            <figure>
               <img
                 class="specializations-img"
                 src="assets/img/collaboration-pic.jpg"
                 alt="photo illustrating cooperation"
               />
-            </figure>
           </div>
         </div>
       </section>
@@ -243,17 +222,19 @@
                 </li>
                 <li class="splide__slide">
                   <figure>
-                    <img src="assets/img/image-3.jpg" alt="" />
+                    <img src="assets/img/image-3.jpg" alt="
+                    zdjęcie ułożonych w rzędzie paneli fotowoltaicznych
+                    photo of photovoltaic panels arranged in a row" />
                   </figure>
                 </li>
                 <li class="splide__slide">
                   <figure>
-                    <img src="assets/img/image-4.jpg" alt="" />
+                    <img src="assets/img/image-4.jpg" alt="photo of the boiler room" />
                   </figure>
                 </li>
                 <li class="splide__slide">
                   <figure>
-                    <img src="assets/img/image-5.jpg" alt="" />
+                    <img src="assets/img/image-5.jpg" alt="photo showing the architecture of the heating system" />
                   </figure>
                 </li>
                 <li class="splide__slide">
@@ -349,6 +330,7 @@
               </div>
               <div class="contact map">
                 <iframe
+                  title="Uniterm google map"
                   class="uniterm-map"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.257471797471!2d19.056429615716223!3d49.81184712571041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47169f70857dfe59%3A0x14c024e03ede0e4f!2sUniterm%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1679594849636!5m2!1spl!2spl"
                   style="border: 0"
