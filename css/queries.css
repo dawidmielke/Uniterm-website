@@ -177,6 +177,10 @@
     padding: 1.2rem 2.4rem;
   }
 
+  .btn-welcome{
+    top: 63%;
+  }
+
   .collaboration-text{
     font-size: 1.6rem;
   }
@@ -196,12 +200,30 @@
   .footer-list{
     gap: 1.2rem;
   }
-
-  
 }
 
 @media(max-width: 24em){
   .about-row{
     grid-template-columns: 1fr;
   }
+
+  .footer-list-link:link,
+  .footer-list-link:visited{
+    font-size: 1.6rem;
+  }
 }
+
+@media(max-width: 350px){
+
+  .logos img{
+    height: 2rem;
+  }
+  .footer-list{
+    gap: 1rem;
+  }
+  .footer-list-link:link,
+  .footer-list-link:visited{
+    font-size: 1.4rem;
+  }
+}
+
