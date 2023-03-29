@@ -25,7 +25,7 @@
 
 @media(max-width: 64em){
   .header{
-    padding: 2.4rem 5%;
+    padding: 2rem 5%;
   }
   .about-row{
     gap: 3.2rem;
@@ -174,7 +174,7 @@
 
 @media(max-width: 27em){  
   .header{
-    padding: 1.2rem 2.4rem;
+    padding: 1rem 2rem;
   }
 
   .btn-welcome{
@@ -220,10 +220,6 @@
   }
   .footer-list{
     gap: 1rem;
-  }
-  .footer-list-link:link,
-  .footer-list-link:visited{
-    font-size: 1.4rem;
   }
 }
 
