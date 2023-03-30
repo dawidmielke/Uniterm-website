@@ -24,7 +24,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   function checkScreenWidth(){
-    if(window.matchMedia('(max-width: 53em)').matches){
+    if(window.matchMedia('(max-width: 58em)').matches){
       scrollToTopButton.style.display = "none";
     }
   }
