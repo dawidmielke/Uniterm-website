@@ -50,6 +50,11 @@
 }
 
 @media(max-width: 53em){
+
+  .scroll-to-top{
+    display: none;
+  }
+
   .colaboration-text{
     font-size: 1.6rem;
   }

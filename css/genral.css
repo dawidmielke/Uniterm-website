@@ -1,7 +1,87 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
-  margin: 0;  
-  padding: 0;  
-  border: 0;  
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 * {
@@ -15,36 +95,34 @@ html {
   overflow-x: hidden;
 }
 
-
-body{
-  font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
-
 }
 
-.container{
+.container {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+  z-index: 1;
 }
 
-.container-lg{
+.container-lg {
   max-width: 130rem;
 }
 
 .primary-header,
 .tertiary-header,
 .quaternary-header,
-.five-row-header{
+.five-row-header {
   font-size: 5.2rem;
-  color: #4D63C6;
+  color: #4d63c6;
   text-transform: capitalize;
   margin-bottom: 3.2rem;
 }
-
 
 /*
 SPACING SYSTEM (px)

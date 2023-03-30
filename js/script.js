@@ -18,14 +18,43 @@ btnNavEl.addEventListener("click", function () {
 });
 
 
-// to do 
+const scrollToTopButton = document.getElementById("scroll");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  function checkScreenWidth(){
+    if(window.matchMedia('(max-width: 53em)').matches){
+      scrollToTopButton.style.display = "none";
+    }
+  }
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("scroll").style.display = "block";
+  } else {
+    document.getElementById("scroll").style.display = "none";
+  }
+  checkScreenWidth();
+  window.addEventListener("resize", checkScreenWidth);
+}
+
+document.getElementById("scroll").addEventListener("click", function() {
+  document.body.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  }); // For Safari
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  }); // For Chrome, Firefox, IE and Opera
+});
+
+
 const scrollBtn = document.getElementById("scroll-btn");
 
 scrollBtn.addEventListener("click", function(){
   const section = document.getElementById("about");
   section.scrollIntoView({behavior: "smooth"});
 });
-
 
 // Smooth scrolling
 const allLinks = document.querySelectorAll("a:link");
